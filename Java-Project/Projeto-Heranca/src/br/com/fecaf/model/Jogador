@@ -1,0 +1,17 @@
+package br.com.fecaf.model;
+
+public class Jogador extends Pessoa {
+    private String posicao, time;
+    private int numeroCamisa;
+}
+
+    public Jogador( int numeroCamisa, String posicao, String time) {
+        super(cpf);
+        this.numeroCamisa = numeroCamisa;
+        this.posicao = posicao;
+        this.time = time;
+    }
+
+    public void realizarFalta() {
+        System.out.println("O jogador fez uma falta");
+    }

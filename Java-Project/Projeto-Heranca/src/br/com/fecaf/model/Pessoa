@@ -1,0 +1,105 @@
+package br.com.fecaf.model;
+
+public class Pessoa{
+    //atributos comuns para pessoa
+
+    private String nome, email, sexo;
+    private int idade;
+    private long cpf, rg, telefone;
+}
+
+    // isso é um construtor
+    public Pessoa (){
+
+    Scanner scanner = new Scanner(System.in);
+
+    public void cadastrarPessoa (){
+        sout.println("**************************");
+        sout.println("**  Cadastro de Pessoa  **");
+        sout.println("**************************");
+        System.out.println("Digite o nome da pessoa: ");
+        nome = scanner.nextLine();
+        System.out.println("Digite o email da pessoa: ");
+        email = scanner.nextLine();
+        System.out.println("Digite o sexo da pessoa: ");
+        sexo = scanner.nextLine();
+        System.out.println("Digite a idade da pessoa: ");
+        idade = scanner.nextInt();
+        System.out.println("Digite o CPF da pessoa: ");
+        cpf = scanner.nextLong();
+        System.out.println("Digite o RG da pessoa: ");
+        rg = scanner.nextLong();
+        System.out.println("Digite o telefone da pessoa: ");
+        telefone = scanner.nextLong();
+        sout.println("***************************");
+        sout.println("**  Cadastro Finalizado  **");
+        sout.println("***************************");
+
+
+        public void andar(){
+            System.out.println("A pessoa está andando");
+        }
+
+        public string getNome() {
+            return nome;
+        }
+        public void setNome(String nome) {
+            this.nome = nome;
+        }
+        public String getEmail() {
+            return email;
+        }
+        public void setEmail(String email) {
+            this.email = email;
+        }
+        public String getSexo() {
+            return sexo;
+        }
+        public void setSexo(String sexo) {
+            this.sexo = sexo;
+        }
+        public int getIdade() {
+            return idade;
+        }
+        public void setIdade(int idade) {
+            this.idade = idade;
+        }
+        public long getCpf() {
+            return cpf;
+        }
+        public void setCpf(long cpf) {
+            this.cpf = cpf;
+            }
+        public long getRg() {
+            return rg;
+            }
+        public void setRg(long rg) {
+            this.rg = rg;
+            }
+        public long getTelefone() {
+            return telefone;
+            }
+        public void setTelefone(long telefone) {
+            this.telefone = telefone
+            }
+        public void setTelefone(long telefone) {
+            this.telefone = telefone;
+        }   
+        public void setTelefone(long telefone) {
+            this.telefone = telefone;
+        }
+
+    }
+
+    public void exibirInformacoes() {
+        sout.println("************************");
+        sout.println("Nome: " + nome);
+        sout.println("Email: " + email);
+        sout.println("Sexo: " + sexo);
+        sout.println("Idade: " + idade);
+        sout.println("CPF: " + cpf);
+        sout.println("RG: " + rg);
+        sout.println("Telefone: " + telefone);
+        sout.println("************************");
+    }
+}

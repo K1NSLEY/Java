@@ -1,0 +1,50 @@
+package br.com.fecaf.model;
+
+import br.com.fecaf.model.Jogador;
+
+public class App {
+
+    public static void main(String[] args) {
+
+
+        // instanciando classe Pai "Pessoa"
+        Pessoa pessoa = new Pessoa(321);
+
+
+        Jogador jogador1 = new Jogador( 6, "Lateral", "Meco"), 321;
+        jogador1.cadastrarJogador();
+        jogador1.exibirJogador();
+
+        Jogador jogador2 = new Jogador( 10, "Meio-campo", "Fênix"), 123;
+        jogador2.cadastrarJogador();
+        jogador2.exibirJogador();
+
+        Jogador jogador3 = new Jogador( 9, "Atacante", "MEC"), 456;
+        jogador3.cadastrarJogador();
+        jogador3.exibirJogador();
+
+        list.jogador.add(jogador1);
+        list.jogador.add(jogador2);
+        list.jogador.add(jogador3);
+
+        for (Jogador player : listjogador{
+            player.exibirInformacoes();
+        })
+
+        listJogador.remove(jogador2);
+
+        for (Jogador player : listjogador{
+            player.exibirInformacoes();
+        }) 
+
+
+
+    }
+
+
+
+
+
+
+
+}
