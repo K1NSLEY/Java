@@ -45,4 +45,10 @@ Explicações:
 ``` System.out.println() ``` → comando que imprime texto no console e pula para a linha seguinte.
 ``` ``` → 
 
+Retangulo retangulo = new Retangulo();
+Retangulo = Classe
+retangulo = Nome do Objeto
+new Retangulo() = Cria um novo objeto
+Heap Armazena objetos
+Stack Armazena objetos
 
