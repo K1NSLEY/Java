@@ -21,6 +21,7 @@ public class Retangulo {
         lado1 = scanner.nextDouble();
         System.out.println("Informe o Lado 2: ");
         lado2 = scanner.nextDouble();
+        scanner.nextLine();
         System.out.println("Informe o nome: ");
         nome = scanner.nextLine(); // next pega apenas o primeiro valor
         System.out.println("/*------------------------*/");
@@ -50,7 +51,19 @@ public class Retangulo {
         System.out.println("Lado1: " + lado1);
         System.out.println("Lado2: " + lado2);
         System.out.println("Perimetro: " + perimetro);
+        System.out.println("Area: " + area);
         System.out.println("/*------------------------*/");
+    }
+    public double obtemArea() {
+        return area;
+    }
+
+    public double obtemPerimetro() {
+        return perimetro;
+    }
+
+    public String obtemNome() {
+        return nome;
     }
 
 
