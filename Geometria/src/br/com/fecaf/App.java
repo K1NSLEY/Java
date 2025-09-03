@@ -38,7 +38,7 @@ public class App {
         } else if (retangulo1.obtemPerimetro() < retangulo2.obtemPerimetro()) {
             System.out.println(retangulo2.obtemNome() + " tem maior perímetro.");
         } else {
-            System.out.println("Os retângulos têm o mesmo perímetro.");
+            System.out.println("Os retângulos possuem o mesmo perímetro.");
         }
 
         Menu menu = new Menu();
