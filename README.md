@@ -26,13 +26,28 @@ public class App {
 
 ```
 
-Explicações:
+Explicação:
+``` package br.[...] ``` → é uma boa prática, proveniente de toda a comunidade Java, domínio invertido, por possuir apenas um domínio, também serve como cada de segurança.
 
 ``` public ``` → indica que a classe ou método é acessível de qualquer lugar do código.
 
 ``` static ``` → significa que o método pertence à classe e não a um objeto específico. Isso permite que você execute o método sem criar um objeto da classe.
 
 ``` void ``` → indica que o método não retorna nenhum valor.
+
+```java
+package br.com.fecaf;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("----------------------------");
+        System.out.println("/*   Cadastro Retângulo   */");
+        System.out.println("----------------------------");
+
+    }
+}
+
+```
 
 ``` class ``` → palavra-chave usada para criar uma classe em Java.
 
