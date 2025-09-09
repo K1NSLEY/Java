@@ -67,3 +67,11 @@ new Retangulo() = Cria um novo objeto
 Heap Armazena objetos
 Stack Armazena objetos
 
+
+
+
+1 - Terminar o menú do Geometria
+2 - Definir/Terminar o Triângulo Retângulo
+3 - Validar se realmente é um triângulo (Verificar se as pontas batem)
+4 - Definir no input é um triângulo 3, 4, 5
+
