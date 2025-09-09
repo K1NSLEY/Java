@@ -43,7 +43,7 @@ public class Retangulo {
         System.out.println("/* Cálculo Finalizado com Sucesso! ");
     }
     //Método de Exibir infos
-    public void exibirinformacoes (){
+    public void exibirInformacoes (){
         System.out.println("/*------------------------*/");
         System.out.println("/*        Retângulo       */");
         System.out.println("/*------------------------*/");
