@@ -64,7 +64,7 @@ public class TelaMenuInicial extends JFrame {
 
         // Ações dos botões
         btnCadastrarCliente.addActionListener(e -> new TelaCadastroCliente( ).setVisible(true));
-        btnLogin.addActionListener(e -> new TelaLogin().setVisible(true));
+        //btnLogin.addActionListener(e -> new TelaLogin().setVisible(true));
         btnSair.addActionListener(e -> {
             int opcao = JOptionPane.showConfirmDialog(null,
                     "Deseja realmente sair?",
