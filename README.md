@@ -75,3 +75,17 @@ Stack Armazena objetos
 3 - Validar se realmente é um triângulo (Verificar se as pontas batem)
 4 - Definir no input é um triângulo 3, 4, 5
 
+
+
+<h2>Spring Boot JDK 17</h2>
+Link para preparação do ambiente de desenvolvimento para Spring-Boot
+<h3>Spring-Boot-Starter-Web</h3>
+
+```sh
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web/3.5.7
+```
+<h3>Spring-Boot-Starter-Partent</h3>
+
+```sh
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent/3.5.7
+```
