@@ -89,4 +89,21 @@ https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-
 ```sh
 https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent/3.5.7
 ```
-Abaixo do último 
+No arquivo pom.xml após o bloco <dependencies> deve ficar assim:
+
+```xml
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.7</version>
+    </parent>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.5.7</version>
+        </dependency>
+    </dependencies>
+```
