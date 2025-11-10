@@ -105,12 +105,18 @@ No arquivo pom.xml após o bloco <dependencies> deve ficar assim:
             <artifactId>spring-boot-starter-web</artifactId>
             <version>3.5.7</version>
         </dependency>
-    </dependencies>
+        
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>
 
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-    <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.32</version>
-    </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>3.5.7</version>
+        </dependency>
+    </dependencies>
 ```
